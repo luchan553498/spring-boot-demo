@@ -1,10 +1,10 @@
 package com.liqg.demo.dao;
 
-import com.liqg.demo.domain.Book;
-import org.apache.ibatis.annotations.Mapper;
-import org.mybatis.spring.annotation.MapperScan;
-
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import com.liqg.demo.domain.Book;
 @Mapper
 public interface BookDao {
 
